@@ -76,6 +76,19 @@ For this Project:-
 For this project:- 
 - This can be useful for our project as hold reading by the speaker Vassil Panayotov with the assistance of Daniel Povey.
 
+## [Clean Speech](https://github.com/microsoft/DNS-Challenge/tree/master/datasets)
+* **This dataset is from the Microsoft's [Deep Noise Suppression (DNS) Challenge - Interspeech 2020](https://github.com/microsoft/DNS-Challenge)**
+* The clean speech dataset is derived from the public audio books dataset called Librivox.
+* Librivox has recordings of volunteers reading over 10,000 public domain audio books in various languages, with majority of which are in English. In total, there are 11,350 speakers.
+* A section of these recordings is of excellent quality, meaning that the speech was recorded using good quality microphones in a silent and less reverberant environments.
+* But there are many audio recordings that are of poor speech quality with speech distortion, background noise and reverberation. Hence, it is important to filter the data based on speech quality. 
+* We used the online subjective test framework ITU-T P.808 to sort the book chapters by subjective quality.
+* The audio chapters in Librivox are of variable length ranging from few seconds to several minutes.
+* We sampled 10 random clips from each book chapter, each 10 seconds in duration. For each clip we had 3 ratings, and the Mean Opinion Score (MOS) across the all clips was used as the book chapter MOS.
+* The upper quartile with respect to MOS was chosen as our clean speech dataset, which are top 25% of the clips with MOS as a metric.
+* The upper quartile comprised of audio chapters with 4.3 ≤ MOS ≤ 5. We removed clips from speakers with less than 15 minutes of speech. The resulting dataset has 500 hours of speech from 2150 speakers. 
+* All the filtered clips are then split into segments of 31 seconds. 
+
 ## [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 
 - VoxCeleb is a large-scale speaker identification dataset.
