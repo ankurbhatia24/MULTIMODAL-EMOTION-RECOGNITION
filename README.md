@@ -45,7 +45,8 @@ The video frames as concatenated in order to incorporate the temporal informatio
 ![baseline_multimodal](https://github.com/ankurbhatia24/MULTIMODAL-EMOTION-RECOGNITION/blob/master/Multimodal-architectures/baseline_model.png) <br> **Baseline multimodal** <br>
 
 The unimodel_text ipynb is the baseline text model provided in the SenticNet MELD paper.    
-The /csv directory contains the csv files with the utterances, speakers, emotion, sentiment labels, etc.
+The /csv directory contains the csv files with the utterances, speakers, emotion, sentiment labels, etc.<br>
+Pickle files can be found here: [drive link](https://drive.google.com/drive/folders/12ASDScVn2cCmgs_XWerQVgu1A9nAViGO?usp=sharing)
   
 ## Libraries/Softwares Used:
 * Tensorflow
