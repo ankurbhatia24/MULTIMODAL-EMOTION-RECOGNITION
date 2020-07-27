@@ -16,3 +16,5 @@ This collection is published under Creative Commons license Attribution-NonComme
 
 T-sne Visuals are not visible in here after downloading:
 https://www.kaggle.com/ashkhagan/tess-2-t-sne-2d-3d?scriptVersionId=39591419
+
+![](https://i.imgur.com/geg11jG.png)
