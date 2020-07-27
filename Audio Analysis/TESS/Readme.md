@@ -12,3 +12,7 @@ University of Toronto, Psychology Department, 2010.
 Files are also available to download via Scholars Portal Dataverse. https://doi.org/10.5683/SP2/E8H2MF
 
 This collection is published under Creative Commons license Attribution-NonCommercial-NoDerivatives 4.0 International.
+
+
+T-sne Visuals are not visible in here after downloading:
+https://www.kaggle.com/ashkhagan/tess-2-t-sne-2d-3d?scriptVersionId=39591419
